@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Compilador2020 {
+
+	int valorInteiro;
+	private float valorFloatPrivado;
+	protected static boolean varBoolean = true;
+	public static final String VALOR_DETERMINADO = "Valor x";
+	
+	public static void imprimirTexto(){
+		System.out.println("Olá Mundo!");
+	}
+	
+	public atribuirValores(int valorInteiro, float valorFloat){
+		valorInteiro = valorInteiro;
+		valorFloatPrivado = valorFloat;
+	}
+	
+	private float soma(float valor){
+		if(valor <= 1){
+			return 1;
+		}else{
+			return 1+1;
+			System.out.println("O resultado eh 2.");
+		}
+	}
+	
+	public static void main (String[] args) {
+	int x = 0;
+        while(x>=0){
+            x = x - 1;
+            System.out.println( x );
+        }
+	}
+}
+
